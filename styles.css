@@ -339,3 +339,25 @@ address { font-style: normal; font-size: 18px; }
   .menu-grid { grid-template-columns: 1fr; }
   .score-num { font-size: 88px; }
 }
+
+/* Contact and hygiene */
+
+.contact { margin: 0; padding: 0; list-style: none; max-width: 360px; }
+.contact li { display: flex; gap: 16px; padding: 5px 0; }
+.contact span { flex: 0 0 80px; color: var(--ink-soft); font-size: 15px; }
+
+.hygiene { display: flex; align-items: center; gap: 16px; max-width: 420px; }
+.hygiene-score {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-size: 32px;
+  line-height: 1;
+}
+.hygiene strong { font-weight: 600; }
